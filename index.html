@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimetsu no Yaiba</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <h1 class="navbar-brand m-0 section-title">Kimetsu no Yaiba</h1>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+            <ul class="nav nav-pills d-block d-md-flex">
+                <li class="nav-item fw-bold">
+                    <a href="#sobre-o-site" class="nav-link">
+                        <i class="bi bi-house-door m-1"></i>
+                        Sobre Kimetsu no Yaiba
+                    </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#hashiras" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Hashiras
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                            <a href="#lua-superior" class="nav-link">
+                                <i class="bi bi-card-text me-1"></i>
+                                Luas Superiores
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#cacadores" class="nav-link">
+                                <i class="bi bi-chat-left-text me-1"></i>
+                                Caçadores
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-site">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="imagens/HASHIRAS CAPA.webp" alt="Hashiras">
+                    </div>
+                    <div class="carousel-item" data-bs-interval-3000>
+                        <img src="./imagens/tanjicapa.jpg" alt="Caçadores">
+                    </div>
+                    <div class="carousel-item" data-bs-interval-3000>
+                        <img src="./imagens/muzan capa.jpg" alt="Muzan">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="imagens/sobre.webp" class="d-block w-100 rounded" alt="Capa do anime">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o anime</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, id dolorum harum
+                                quo consequatur perferendis natus repudiandae optio ipsa voluptates enim ipsam corrupti
+                                labore iusto explicabo? Voluptas recusandae quas cumque.
+                            </p>
+                            <section id="personagem" class="pt-5 pb-5">
+                                <div class="container">
+                                    <div class="row">
+                                        <h2 class="section-title text-center mb-5">
+                                            <span class="text-colored">Personagens</span>
+                                        </h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <aside>
+                                                <nav class="nav nav-pills flex-column nav-personagem">
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#hashiras"
+                                                        class="fw-bold text-start nav-link text-colored active">Hashiras</button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#lua-superior"
+                                                        class="fw-bold text-start nav-link text-colored">Luas Superiores</button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#cacadores"
+                                                        class="fw-bold text-start nav-link text-colored">Caçadores</button>
+                                                </nav>
+                                            </aside>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="tab-content">
+                                                <div class="tab-pane active" id="hashiras">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/venenno hashira.jpg"
+                                                                alt="Shinobu">
+                                                            <h5 class="text-colored fw-bold mt-2"> Shinobu Kocho, Hashira dos Insetos</h5>
+                                                            <p>
+                                                                Shinobu possui uma grande velocidade e é uma mestra na manipulação de venenos, mas não possui grande força física e por isso recorre à eles para derrotar seus oponentes.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/perdeu olho e braço hashira.jpg"
+                                                                alt="Tengen">
+                                                            <h5 class="text-colored fw-bold mt-2">Tengen Uzui, Hashira do Som</h5>
+                                                            <p>
+                                                                Uzui também não ativou a Marca de Poder, mas foi o único Hashira que enfrentou uma Lua Superior sem essa marca e ainda saiu vencedor.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/hashira fogo.webp"
+                                                                alt="Rengoku">
+                                                            <h5 class="text-colored fw-bold mt-2">Kojuro Rengoku, Hashira das Chamas</h5>
+                                                            <p>
+                                                                Rengoku é mais um dos Hashiras que não alcançou a Marca de Poder, mas mesmo assim continua sendo um personagem muito forte.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/do amor hashira.jpg"
+                                                                alt="Mitsuri">
+                                                            <h5 class="text-colored fw-bold mt-2">Mitsuri Kanroji, Hashira do Amor</h5>
+                                                            <p>
+                                                                Mesmo sem treinamento, Mitsuri já apresentava um grande poder devido a densidade de seus músculos, sendo reconhecida e recrutada como caçadora.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/da cobra hashira.webp"
+                                                                alt="Obanai">
+                                                            <h5 class="text-colored fw-bold mt-2">Obanai Iguro, Hashira das Serpentes</h5>
+                                                            <p>
+                                                                Obanai, apesar de não ter derrotado nenhuma Lua Superior, lutou diretamente contra o Oni mais poderoso: Muzan, trazendo uma certa dificuldade ao demônio durante o embate.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/agua hashira q salvou nezuko.webp"
+                                                                alt="Tomioka">
+                                                            <h5 class="text-colored fw-bold mt-2">Giyu Tomioka, Hashira da Água</h5>
+                                                            <p>
+                                                                Tomioka não só aprendeu os 10 estilos da Respiração da Água, mas também criou o 11º estilo dessa respiração.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/hashira do irmao morto.jpg"
+                                                                alt="Muichiro">
+                                                            <h5 class="text-colored fw-bold mt-2">Muichiro Tokito, Hashira da Névo</h5>
+                                                            <p>
+                                                                Mesmo tendo apenas 14 anos, Tokito é um gênio dentre os Hashiras. De todos os pilares, o jovem foi o único que conseguiu vencer uma Lua Superior sem nenhum tipo de ajuda externa.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/do vento louco hashira.webp"
+                                                                alt="Sanemi">
+                                                            <h5 class="text-colored fw-bold mt-2">Sanemi Shinazugawa, Hashira do Vento</h5>
+                                                            <p>
+                                                                Em sua luta contra a Lua Superior 1, Sanemi pôde mostrar todo o seu poder, pressionando bem seu oponente e salvando Tokito. Vemos que seu desempenho foi melhor do que o do Hashira da névoa nesse ponto.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/da pedra hashira +fort.jpg"
+                                                                alt="Gyomei">
+                                                            <h5 class="text-colored fw-bold mt-2">Gyomei Himejima, Hashira da Rocha</h5>
+                                                            <p>
+                                                                Ao enfrentar a Lua Superior 1 junto a Sanemi, seu oponente afirma que Gyomei aperfeiçoou tanto seu corpo que fazia 300 anos que ele não via alguém com tamanha habilidade.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="lua-superior">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/Daki e Gyuutarou LUA SUPERIOR 6.webp"
+                                                                alt="Daki e Gyuutarou">
+                                                            <h5 class="text-colored fw-bold mt-2">Daki e Gyuutarou</h5>
+                                                            <p>
+                                                                Os irmãos Daki e Gyuutarou são os principais antagonistas do arco do distrito da luz vermelha, o próximo a ser adaptado para o anime. Ambos são extremamente cruéis e mesquinhos, mas sentem um amor fraternal verdadeiro entre si.t.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/LUA SUPERIOR 5 GYOKKO.jpg" alt="Gyokko">
+                                                            <h5 class="text-colored fw-bold mt-2">Gyokko</h5>
+                                                            <p>
+                                                                Gyokko é um dos antagonistas do arco da vila dos forjadores de espadas. De todos os Kizuki, ele tem a forma mais grotesca, tendo bocas no lugar dos olhos, um torso que se estende como uma cauda e vários braços pequenos de criança cobertos por escamas.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/lua superior 4.jpg" alt="Hantengu">
+                                                            <h5 class="text-colored fw-bold mt-2">Hantengu</h5>
+                                                            <p>
+                                                                Hantengu também participa do arco dos forjadores de espadas, sendo o superior dele e a principal ameaça a ser combatida. É conhecido principalmente por sua frieza e covardia, já que quando era um humano, usava sua idade avançada para se fingir de inocente e assassinar pessoas para não ser responsabilizado por seus crimes.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/lua superior 3.jpg" alt="Akaza">
+                                                            <h5 class="text-colored fw-bold mt-2">Akaza</h5>
+                                                            <p>
+                                                                Tendo sido transformado em oni por Muzan em pessoa, Akaza é teimoso e sanguinário, tendo um profundo desejo de lutar contra adversários fortes ao mesmo tempo em que desdenha e tortura os fracos. Nem mesmo seus companheiros Kizuki estão à salvo, já que ele vê a todos como rivais.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/douma lua superior 2.webp" alt="Douma">
+                                                            <h5 class="text-colored fw-bold mt-2">Douma</h5>
+                                                            <p>
+                                                                Nascido totalmente sem emoções, Douma é um dos maiores vilões da série, sendo responsável direto pelas mortes de Kotoha, a mãe de Inosuke, e de Kanae, a irmã mais velha da hashira Shinobu Kocho, o que os torna arqui-inimigos.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/lua superior 1.webp" alt="Kokushibou">
+                                                            <h5 class="text-colored fw-bold mt-2">Kokushibou</h5>
+                                                            <p>
+                                                                E finalmente chegamos no oni mais poderoso entre os Doze Kizuki, abaixo somente do próprio Muzan e sendo o mais leal a ele. Sério, misterioso e compenetrado, Kokushibou é na verdade o irmão mais velho do lendário espadachim Yoriichi Tsugikuni, o primeiro usuário da respiração do sol, sendo também antepassado de Muichiro Tokito, o pilar da névoa.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="cacadores">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/Tanjiro-Kamado.webp"
+                                                                alt="Tanjiro Kamado">
+                                                            <h5 class="text-colored fw-bold mt-2">Tanjiro Kamado</h5>
+                                                            <p>
+                                                                Tanjirō era o filho mais velho de um vendedor de carvão, e levava uma vida tranquila com sua família. Mas o jovem vê sua realidade virar de cabeça para baixo quando um demônio massacra sua aldeia. Toda sua família morre no massacre, com exceção de sua irmã mais nova, Nezuko.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/nezuko.jpg" alt="Nezuko Kamado">
+                                                            <h5 class="text-colored fw-bold mt-2">Nezuko Kamado</h5>
+                                                            <p>
+                                                                A vila em que Nezuko morava com sua família foi massacrada pelo Rei dos Demônios, Muzan Kibutsuji. Perdendo toda a sua família, apenas Nezuko e seu ião tanjiro sobreviveram. Contudo, a menina foi transformada em um demônio. Misteriosamente, Nezuko consegue manter sua consciência humana.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/zenitsu.webp" alt="Zenitsu Agatsuma">
+                                                            <h5 class="text-colored fw-bold mt-2">Zenitsu Agatsuma</h5>
+                                                            <p>
+                                                                Zenitsu entrou para a Demon Slayer Corps no mesmo período que Tanjirō, mas este nunca foi o sonho de vida desse jovem medroso mulherengo. Na verdade, o gosto por mulheres e sua falta de juízo para lidar com isso levaram Zenitsu a se endividar com uma mulher, que acabou vendendo o jovem para um treinador.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/inousuke.jpg" alt="Inosuke Hashibira">
+                                                            <h5 class="text-colored fw-bold mt-2">Inosuke Hashibira</h5>
+                                                            <p>
+                                                                Inosuke foi criado por um javali selvagem. Embora isso tenha lhe proporcionado uma personalidade impetuosa e reações violentas, o jovem também cresceu como autodidata, criando seu próprio estilo de luta, o Respiração das Feras.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/genya.jpg" alt="Genya Shinazugawa">
+                                                            <h5 class="text-colored fw-bold mt-2">Genya Shinazugawa</h5>
+                                                            <p>
+                                                                Genya é irmão mais novo do caçador Sanemi Shinazugawa, Pilar do Vento na Demon Slayer Corps. Mas uma infância extremamente difícil fez de Sanemi um homem amargo, comportamento que refletiu em Genya. Ainda bem jovem, o pai da família Shinazugawa foi assassinado, a mãe foi transformada em um demônio e matou quase todos os seus filhos. Genya sobreviveu apenas porque Sanemi matou a sua própria mãe para evitar mais tragédia.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img class="d-block w-100" src="imagens/kanao.webp" alt="Kanao Tsuyuri">
+                                                            <h5 class="text-colored fw-bold mt-2">Kanao Tsuyuri</h5>
+                                                            <p>
+                                                                Quando criança, Kanao sofria pesadas agressões de seu pai, até que foi vendida por ele para um desconhecido como escrava. Sua vida só começa a melhorar quando é resgatada por Kanae, antiga Pilar da Flor, e sua irmã Shinobu, a atual Pilar do Inseto. Além de criá-la como se fosse sua própria irmã, Shinobu fez de Kanao sua Tsuguko. Tsuguko são membros excepcionais da Demon Slayer Corps que são pessoalmente treinados e indicados como sucessores dos Pilares.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="fale-conosco" class="pt-5 pb-5">
+                                <div class="container">
+                                    <div class="row">
+                                        <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-7 mb-5">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                                    <input type="text" id="nome" class="form-control" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                                    <input type="email" id="email" class="form-control" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="telefone" class="form-label fw-bold text-colored">Seu telefone
+                                                        (opcional)</label>
+                                                    <input type="tel" id="telefone" class="form-control">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                                    <textarea class="form-control" id="mensagem" required></textarea>
+                                                </div>
+                                                <button type="submit" class="btn fw-bold">Enviar</button>
+                                            </form>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        </section>
+    </div>    
+</body>
+</html>
