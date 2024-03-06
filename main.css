@@ -18,6 +18,11 @@ body {
     color: #fff;
 }
 
+.carousel-image {
+    width: 100%;
+    height: 700px;
+}
+
 .navbar-toggler {
     background-color: #ffeae6;
 }
@@ -53,8 +58,27 @@ body {
     text-decoration: none;
 }
 
+.col-md-3 p {
+    max-height: 150px;
+    overflow: hidden;
+}
+
 @media (max-width: 767px) {
     .carousel-item img {
         height: 280px;
     }
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #ffc7c7;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 3px solid #f83e3e;
 }
