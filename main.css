@@ -59,6 +59,28 @@ body {
 }
 
 .col-md-3 p {
+    max-height: 150px;  
+    overflow-y: auto;
+}
+
+col-md-3 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+h5 { 
+    max-width: 10%;
+    text-align: center;
+}
+
+.carousel-image {
+
+    width: 100%;
+    height: 700px;
+}
+
+.col-md-3 p {
     max-height: 150px;
     overflow: hidden;
 }
